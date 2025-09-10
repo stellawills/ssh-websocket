@@ -15,7 +15,7 @@
 ❗❗ INSTALLATION
 
 ```
-apt update && apt upgrade -y && wget https://raw.githubusercontent.com/opiran-club/ssh-websocket/main/wsproxy.sh && chmod +x wsproxy.sh && ./wsproxy.sh
+apt update && apt upgrade -y && wget https://raw.githubusercontent.com/stellawills/ssh-websocket/main/wsproxy.sh && chmod +x wsproxy.sh && ./wsproxy.sh
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
