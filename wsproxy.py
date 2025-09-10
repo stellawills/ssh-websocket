@@ -7,7 +7,7 @@ LISTENING_ADDR = '0.0.0.0'
 try:
    LISTENING_PORT = int(sys.argv[1])
 except:
-   LISTENING_PORT = 80
+   LISTENING_PORT = 25
 SSH_PORT = 22  # Default SSH port
 BUFLEN = 4096 * 4
 TIMEOUT = 60
