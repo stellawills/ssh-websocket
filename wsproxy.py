@@ -2,12 +2,12 @@
 # encoding: utf-8
 import socket, threading, thread, select, signal, sys, time, getopt
 
-PASS = 'iptunnel'
+PASS = ''
 LISTENING_ADDR = '0.0.0.0'
 try:
    LISTENING_PORT = int(sys.argv[1])
 except:
-   LISTENING_PORT = 443
+   LISTENING_PORT = 80
 SSH_PORT = 22  # Default SSH port
 BUFLEN = 4096 * 4
 TIMEOUT = 60
